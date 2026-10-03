@@ -76,5 +76,16 @@ android.*
 *.wasm
 *.html
 *.js
+
+# Keep the web build for GitHub Pages
+!web/
+!web/index.html
+!web/index.js
+!web/index.wasm
+
 !src/minshell.html
 !src/shell.html
+
+raylib_game
+main
+*.o
